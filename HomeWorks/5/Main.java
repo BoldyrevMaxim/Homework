@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         Employee[] employees = {
-            new Employee("Антощенкова Валерия Николаевна", "Директор чего-то там", "working_mail@mailbox.com", "83424243343", 151000, 37),
-            new Employee("Иванов Иван Николаевич", "Уборщик", "working_mail_2@mailbox.com", "82342346545", 135000, 32),
-            new Employee("Смирнов Денис Иванович", "Доставщик", "working_mail_3@mailbox.com", "84342342342", 100000, 55),
-            new Employee("Павлов Евгений Денисович", "Зам. директора чего-то там", "working_mail_4@mailbox.com", "84534534543", 250000, 42),
-            new Employee("Павлов Анатолий Денисович", "SEO", "working_mail_5@mailbox.com", "83534543345", 55000, 23),
+            new Employee("Валерий", "Директор", "work_mail_V@mailbox.com", "83424243343", 256000, 56),
+            new Employee("Даниил", "Курьер", "work_mail_D@mailbox.com", "82342346545", 18000, 33),
+            new Employee("Илья", "Кассир", "work_mail_I@mailbox.com", "84342342342", 50000, 29),
+            new Employee("Антон", "Зам. директора", "working_mail_A@mailbox.com", "84534534543", 645000,38),
+            new Employee("Евгения", "Секретарь", "working_mail_E@mailbox.com", "83534543345", 492000, 44),
         };
 
         for (Employee employee : employees) {
